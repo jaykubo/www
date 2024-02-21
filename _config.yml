@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "jaykubo"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Jay Kubo"
+description              : "Jay's website."
+url                      : "https://jaykubo.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "jaykubo/www" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -98,16 +98,16 @@ social:
 analytics:
   provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "UA-63924271-2"
+    anonymize_ip         : true # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jay Kubo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "You are an **amazing** person."
+  location         : "Austin, TX"
   email            :
   links:
     - label: "Email"
@@ -115,19 +115,22 @@ author:
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://jaykubo.com"
+    - label: "AngelList"
+      icon: "fab fa-fw fa-angellist"
+      url: "https://angel.co/jaykubo"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/jaykubo"
+    - label: "Anaconda"
+      icon: "fab fa-fw fa-python"
+      url: "https://anaconda.org/jaykubo"
+    - label: "Docker"
+      icon: "fab fa-fw fa-docker"
+      url: "https://hub.docker.com/u/jaykubo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/jaykubo"
 
 # Site Footer
 footer:
@@ -149,7 +152,10 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/jaykubo"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-reddit"
+      url: "https://reddit.com/u/jaykubo"
 
 
 # Reading Files
